@@ -5,13 +5,13 @@ function Navbar() {
   return (
     <nav className="navbar" style={{}}>
       <div className="navbar-brand">
-        <Link to="/">Movies</Link>
+        <Link to="/latestmovies">Movies</Link>
       </div>
       <div className="navbar-links">
-        <Link to="/" className="nav-link">
+        <Link to="/latestmovies" className="nav-link">
           Home
         </Link>
-        <Link to="/favorites" className="nav-link">
+        <Link to="/latestmovies/favorites" className="nav-link">
           Favorites
         </Link>
       </div>
